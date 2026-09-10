@@ -6,7 +6,7 @@ For this assignment, you won't need to run any commands.
 ### Intro
 This assignment is for you to practice using if/else statements, for loops, and while loops
 ### Relevant Info 
-When using cascading if/else statements, Python will continue checking the if statements until it sees an elif or else. Also take care with the order
+When using cascading if/else statements, Python will continue checking the if statements until it sees an elif or else. Also take care with the order of your statements. 
 ```python
 def get_letter_grade(score):
     if score >= 90:
@@ -53,7 +53,7 @@ Write a function collatz_conjecture(num) that takes an integer and runs a while 
 At each iteration, print the number. <br/>At the end of the while loop, print the amount of steps it took to reach 1. 
 
 ### Example Output
-No autograder test this time. I will be looking at your code! I have one function call of each in your assignment2.py file. 
+No autograder test this time. I will be looking at your code! I have an example for each function in the python file! 
 
 ### Submitting 
 To submit your project:
