@@ -37,10 +37,23 @@ def get_letter_grade_incorrect(score):
 This example above will always return D if the score is 60 or above. It will not check any other score because of the first if statement. 
 
 ### The Program
-You will not need to create a file this time around. Open the python file named assignment.py. In the file you will find the questions to answer. Careful to not change the name of this file, I will be running an auto grader!
+#### Problem 1
+Write a function fizz_buzz(n) that takes an int, n. The function will count up to number n starting from 1. There are 4 rules:
+1. If the number is a multiple of 3, print “fizz”.
+2. If the number is a multiple 5, print “buzz”.
+3. If the number is a multiple of 3 and 5, print “fizzbuzz”.
+4. Otherwise, print the number itself.
+
+#### Problem 2
+The Collatz conjecture states that if you take any positive integer, you will always eventually reach 1 by following two simple rules:
+1. If the number is even, divide it by 2.
+2. If the number is odd, multiply it by 3 and add 1.
+<br/>
+Write a function collatz_conjecture(num) that takes an integer and runs a while loop until the integer reaches 1. <br/>
+At each iteration, print the number. <br/>At the end of the while loop, print the amount of steps it took to reach 1. 
 
 ### Example Output
-Check auto-grader tests! 
+No autograder test this time. I will be looking at your code! I have one function call of each in your assignment2.py file. 
 
 ### Submitting 
 To submit your project:
